@@ -10,7 +10,7 @@ import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-export const backendURL = "http://localhost:5000"
+export const backendURL = "https://shopping-backend-seven.vercel.app"
 export const currency = "$"
 
 const App = () => {

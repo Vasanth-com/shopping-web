@@ -10,7 +10,7 @@ const ShopContextProvider = (props) =>{
 
     const currency = '$';
     const deliveryFee = 10;
-    const backendURL = "http://localhost:5000"
+    const backendURL = "https://shopping-backend-seven.vercel.app"
     const [search,setSearch] = useState('')
     const [showSearch , setShowSearch] = useState(false);
     const [cartItems,setCartItems] = useState({});
